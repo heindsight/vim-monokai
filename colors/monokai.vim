@@ -99,7 +99,7 @@ let s:changebg    = { "gui": "#5f5f87", "cterm": "60" }
 " ------------
 
 " editor
-call s:h("Normal",        { "fg": s:white,      "bg": s:black })
+call s:h("Normal",        { "fg": s:white,      "bg": s:darkblack })
 call s:h("ColorColumn",   {                     "bg": s:lightblack })
 call s:h("CursorColumn",  {                     "bg": s:lightblack2 })
 call s:h("CursorLine",    {                     "bg": s:lightblack2 })
@@ -115,7 +115,7 @@ call s:h("ModeMsg",       { "fg": s:yellow })
 call s:h("MoreMsg",       { "fg": s:yellow })
 call s:h("ErrorMsg",      { "fg": s:black,      "bg": s:red,          "format": "standout" })
 call s:h("WarningMsg",    { "fg": s:red })
-call s:h("VertSplit",     { "fg": s:darkgrey,   "bg": s:darkblack })
+call s:h("VertSplit",     { "fg": s:white,      "bg": s:lightblack })
 call s:h("LineNr",        { "fg": s:grey,       "bg": s:lightblack })
 call s:h("CursorLineNr",  { "fg": s:orange,     "bg": s:lightblack })
 call s:h("SignColumn",    {                     "bg": s:lightblack })
@@ -182,7 +182,7 @@ call s:h("Tag",           { "fg": s:pink })
 "        Debug"
 
 call s:h("Todo",          { "fg": s:orange,   "format": "bold,italic" })
-call s:h("Comment",       { "fg": s:warmgrey, "format": "italic" })
+call s:h("Comment",       { "fg": s:grey,     "format": "italic" })
                          
 call s:h("Underlined",    { "fg": s:green })
 call s:h("Ignore",        {})
