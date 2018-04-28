@@ -132,7 +132,7 @@ call s:h("DiffChange",    { "fg": s:changefg,   "bg": s:changebg })
 call s:h("DiffText",      { "fg": s:black,      "bg": s:aqua })
 
 " fold
-call s:h("Folded",        { "fg": s:warmgrey,   "bg": s:darkblack })
+call s:h("Folded",        { "fg": s:aqua,       "bg": s:lightblack })
 call s:h("FoldColumn",    {                     "bg": s:darkblack })
 "        Incsearch"
 
